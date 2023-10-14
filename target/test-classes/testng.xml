@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Dynamics automation suite">
+
+	<listeners>
+		<listener class-name="listeners.MyListeners" />
+	</listeners>
+
+	<test name="SafeSuplier campaign test">
+		<classes>
+			<class name="sccE2E.businessProcessFlowTest">
+		<!--		<methods>
+					<include name="businessProcessFlowCheck" />
+				</methods> -->
+			</class>
+		</classes>
+	</test>
+	<!--Test -->
+</suite> 
+

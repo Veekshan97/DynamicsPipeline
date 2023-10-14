@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-14T20:54:05 BST" name="Dynamics automation suite" finished-at="2023-10-14T20:54:43 BST" duration-ms="38307">
+    <groups>
+    </groups>
+    <test started-at="2023-10-14T20:54:05 BST" name="SafeSuplier campaign test" finished-at="2023-10-14T20:54:43 BST" duration-ms="38307">
+      <class name="sccE2E.businessProcessFlowTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:sccE2E.businessProcessFlowTest@2dc54ad4]" started-at="2023-10-14T20:54:05 BST" name="openBrowser" finished-at="2023-10-14T20:54:11 BST" duration-ms="5749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="businessProcessFlowCheck()[pri:1, instance:sccE2E.businessProcessFlowTest@2dc54ad4]" started-at="2023-10-14T20:54:11 BST" name="businessProcessFlowCheck" finished-at="2023-10-14T20:54:43 BST" duration-ms="32079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- businessProcessFlowCheck -->
+        <test-method is-config="true" signature="closeDown()[pri:0, instance:sccE2E.businessProcessFlowTest@2dc54ad4]" started-at="2023-10-14T20:54:43 BST" name="closeDown" finished-at="2023-10-14T20:54:43 BST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+      </class> <!-- sccE2E.businessProcessFlowTest -->
+    </test> <!-- SafeSuplier campaign test -->
+  </suite> <!-- Dynamics automation suite -->
+</testng-results>
