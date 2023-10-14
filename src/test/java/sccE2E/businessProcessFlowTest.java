@@ -57,7 +57,7 @@ public class businessProcessFlowTest extends Base {
 		//creating a Lead
 		driver.findElement(By.xpath("//div[@title='Sales']")).click();
 		Thread.sleep(1000);
-		// updated with come comment
+		// updated with some comment - renamed
 		
 		//campaignsPage.clickOnLeadsTab();
 	//	campaignsPage.clickOnNewLeadButton();
